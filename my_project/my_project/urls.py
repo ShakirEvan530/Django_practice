@@ -20,5 +20,5 @@ from my_app.views import django_prac as djp
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('dj/',djp),
+    path('djp/',djp),
 ]
