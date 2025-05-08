@@ -7,4 +7,7 @@ def django_prac(req):
 def machine_learning(req):
     return HttpResponse('this is about machine learning!!')
 
+def deep_learning(req):
+    return HttpResponse('this is about deep learning!!')
+
 
