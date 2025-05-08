@@ -17,8 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from my_app.views import django_prac as djp
+from my_app.views import machine_learning as ml
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('djp/',djp),
+    path('ml/',ml),
 ]

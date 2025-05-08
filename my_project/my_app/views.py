@@ -4,4 +4,7 @@ from django.http import HttpResponse
 def django_prac(req):
     return HttpResponse('Hello Evan How are you!!')
 
+def machine_learning(req):
+    return HttpResponse('this is about machine learning!!')
+
 
